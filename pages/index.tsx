@@ -132,7 +132,7 @@ export default function Home() {
                   <div className="flex gap-4 flex-col sm:flex-row w-full">
                     <div className="formkit-field w-full">
                       <input
-                        className="formkit-input p-2 bg-slate-100 w-full"
+                        className="formkit-input p-2 border border-slate-100 w-full"
                         aria-label="First Name"
                         style={{
                           color: "rgb(0, 0, 0)",
@@ -147,7 +147,7 @@ export default function Home() {
                     </div>
                     <div className="formkit-field w-full">
                       <input
-                        className="formkit-input p-2 bg-slate-100 w-full"
+                        className="formkit-input p-2 border border-slate-100 w-full"
                         name="email_address"
                         style={{
                           color: "rgb(0, 0, 0)",
